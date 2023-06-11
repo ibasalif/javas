@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+let age1 = parseInt(prompt("Entrez l'âge 1 :"));
+let age2 = parseInt(prompt("Entrez l'âge 2 :"));
+
+if (age1 < age2) {
+  console.log("L'âge mineur est :", age1);
+  console.log("L'âge majeur est :", age2);
+} else if (age2 < age1) {
+  console.log("L'âge mineur est :", age2);
+  console.log("L'âge majeur est :", age1);
+} else {
+  console.log("Les deux âges sont égaux.");
+}
+
+    </script>
+    <!-- Dans ce programme, nous utilisons la fonction parseInt() pour convertir les valeurs entrées par l'utilisateur en entiers. Ensuite, nous comparons les deux âges à l'aide d'une structure if-else if-else. Si age1 est inférieur à age2, nous affichons age1 comme l'âge mineur et age2 comme l'âge majeur. Si age2 est inférieur à age1, nous affichons age2 comme l'âge mineur et age1 comme l'âge majeur. Sinon, si les deux âges sont égaux, nous affichons un message indiquant que les deux âges sont égaux. -->
+</body>
+</html>
